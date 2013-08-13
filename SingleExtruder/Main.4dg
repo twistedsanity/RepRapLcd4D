@@ -159,7 +159,7 @@ func initVars()
     to(timePrint); print("00h00m");
     to(sdPerc); print("000");
     to(ex_setmm); print("10");     // Extrude mm of filament
-    to(ex_setmm_min); print("200"); // Extruder mm/min
+    to(ex_setmm_min); print("40"); // Extruder mm/min
     to(msg); print(""); //Max 46 char
     //Z Calibration
     z_cal_sign:=-1;
